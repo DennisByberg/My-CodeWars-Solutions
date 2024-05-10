@@ -8,4 +8,3 @@ describe(cubes, () => {
     expect(cubes(10)).toEqual(1000);
   });
 });
-export { cubes };
