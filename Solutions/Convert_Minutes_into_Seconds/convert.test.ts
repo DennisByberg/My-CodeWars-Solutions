@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { convert } from "./convertMinutesIntoSeconds";
+import { convert } from "./convert";
 
 describe(convert, () => {
   it("should convert minutes to seconds", () => {

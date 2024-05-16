@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { howManySeconds } from "./convertHoursIntoSeconds";
+import { howManySeconds } from "./howManySeconds";
 
 describe(howManySeconds, () => {
   it("should convert hours into seconds correctly", () => {

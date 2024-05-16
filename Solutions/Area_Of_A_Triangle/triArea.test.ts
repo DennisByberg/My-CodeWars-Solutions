@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { triArea } from "./areaOfATriangle";
+import { triArea } from "./triArea";
 
 describe(triArea, () => {
   it("should return the area of a triangle", () => {

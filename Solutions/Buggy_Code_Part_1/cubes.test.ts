@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cubes } from "./buggyCodePart1";
+import { cubes } from "./cubes";
 
 describe(cubes, () => {
   it("should return the cubes of the given number", () => {

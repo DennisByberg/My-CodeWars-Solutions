@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getFirstValue } from "./returnTheFirstElementInAnArray";
+import { getFirstValue } from "./getFirstValue";
 
 describe(getFirstValue, () => {
   it("should return the first number in the array", () => {

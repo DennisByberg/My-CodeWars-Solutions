@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findPerimeter } from "./findThePerimeterOfARectangle";
+import { findPerimeter } from "./findPerimeter";
 
 describe(findPerimeter, () => {
   it("should return the perimeter of a rectangle", () => {

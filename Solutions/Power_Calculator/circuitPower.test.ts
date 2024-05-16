@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { circuitPower } from "./powerCalculator";
+import { circuitPower } from "./circuitPower";
 
 describe(circuitPower, () => {
   it("should return 0", () => {

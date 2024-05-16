@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { calcAge } from "./convertAgeToDays";
+import { calcAge } from "./calcAge";
 
 describe(calcAge, () => {
   it("should return the age in days (1y = 365d)", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { addition } from "./returnTheNextNumberfromTheIntegerPassed";
+import { addition } from "./addition";
 
 describe(addition, () => {
   it("should return the next number from the integer passed", () => {

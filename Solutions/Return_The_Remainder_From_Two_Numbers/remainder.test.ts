@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { remainder } from "./returnTheRemainderFromTwoNumbers";
+import { remainder } from "./remainder";
 
 describe(remainder, () => {
   it("should correctly calculate the remainder of a division operation", () => {
