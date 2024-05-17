@@ -1,1 +1,1 @@
-https://edabit.com/user/5eEagFa6nN95fx9Yt
+https://www.codewars.com/users/Dennis%20Byberg
