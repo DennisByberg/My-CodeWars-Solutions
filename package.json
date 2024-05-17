@@ -1,5 +1,5 @@
 {
-  "name": "my-edabit-solutions",
+  "name": "my-codewars-solutions",
   "scripts": {
     "test": "vitest"
   },
