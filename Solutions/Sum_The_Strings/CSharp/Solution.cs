@@ -1,8 +1,8 @@
-namespace My_CodeWars_Solutions.Sum_The_Strings.CSharp;
+namespace Solutions.Sum_The_Strings.CSharp;
 
-public static class SumStr
+public static class Solution
 {
-    public static string Sum(string a, string b)
+    public static string StringsSum(string a, string b)
     {
         var num1 = int.TryParse(a, out var n1) ? n1 : 0;
         var num2 = int.TryParse(b, out var n2) ? n2 : 0;
