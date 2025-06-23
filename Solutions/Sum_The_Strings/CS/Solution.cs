@@ -1,4 +1,4 @@
-namespace Solutions.Sum_The_Strings.CSharp;
+namespace Solutions.Sum_The_Strings.CS;
 
 public static class Solution
 {
