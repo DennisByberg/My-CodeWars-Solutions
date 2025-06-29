@@ -38,6 +38,9 @@ npm test
 
 ```bash
 dotnet test
+
+dotnet test --filter "FullyQualifiedName~Solutions.{FOLDER_NAME}.CS"
+
 ```
 
 ## Setup
