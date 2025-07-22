@@ -1,4 +1,4 @@
-export function points(games) {
+export const points = (games) => {
   return games.reduce((totalPoints, game) => {
     const [homeScore, awayScore] = game.split(':').map(Number);
 
@@ -7,4 +7,4 @@ export function points(games) {
 
     return totalPoints;
   }, 0);
-}
+};
