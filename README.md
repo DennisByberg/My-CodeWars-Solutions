@@ -1,4 +1,4 @@
-# My CodeWars Solutions
+# CodeWars Solutions
 
 This repository contains my solutions to various CodeWars problems implemented in multiple programming languages.
 
@@ -12,21 +12,21 @@ This repository contains my solutions to various CodeWars problems implemented i
 
 ```
 Solutions/
-  Problem_Name/
-    TypeScript/
+  {Problem_Name}/
+    TS/
       solution.ts
       solution.test.ts
-    JavaScript/
+    JS/
       solution.js
       solution.test.js
-    CSharp/
+    CS/
       Solution.cs
       SolutionTests.cs
 ```
 
 ## Running Tests
 
-**Important:** All commands must be run from the root directory (`/My-CodeWars-Solutions/`)
+**Important:** All commands must be run from the root directory (`codeWars-solutions/`)
 
 #### JavaScript/TypeScript Tests
 
@@ -37,10 +37,7 @@ npm test
 #### C# Tests
 
 ```bash
-dotnet test
-
 dotnet test --filter "FullyQualifiedName~Solutions.{FOLDER_NAME}.CS"
-
 ```
 
 ## Setup
@@ -55,7 +52,7 @@ dotnet test --filter "FullyQualifiedName~Solutions.{FOLDER_NAME}.CS"
 1. Clone the repository
 2. **Navigate to the project root:**
    ```bash
-   cd My-CodeWars-Solutions
+   cd codeWars-solutions
    ```
 3. Install JavaScript/TypeScript dependencies:
    ```bash
