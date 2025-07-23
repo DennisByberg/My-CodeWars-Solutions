@@ -1,5 +1,5 @@
 {
-  "name": "my-codewars-solutions",
+  "name": "codewars-solutions",
   "scripts": {
     "test": "vitest"
   },
