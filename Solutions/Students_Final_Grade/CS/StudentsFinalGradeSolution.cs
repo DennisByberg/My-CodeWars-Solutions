@@ -12,10 +12,10 @@ public static class StudentsFinalGradeSolution
 
     public static int FinalGrade(int exam, int projects)
     {
-        if (exam > 90 || projects > 10) return (int)Grade.Excellent;
-        if (exam > 75 && projects >= 5) return (int)Grade.Good;
-        if (exam > 50 && projects >= 2) return (int)Grade.Passing;
-
-        return (int)Grade.Failing;
+        return
+            exam > 90 || projects > 10 ? (int)Grade.Excellent :
+            exam > 75 && projects >= 5 ? (int)Grade.Good :
+            exam > 50 && projects >= 2 ? (int)Grade.Passing :
+            (int)Grade.Failing;
     }
 }
